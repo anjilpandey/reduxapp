@@ -24,7 +24,7 @@ const Home = () => {
             <Navbar />
             <div className='container-fluid py-3 bg-primary'>
                 <input type="search" placeholder='Type here to search' className='form-control w-75 m-auto' 
-                onChange={(e) => setSearch(e.target.value)} onKeyUp={filterProduct} />
+                onChange={(e) => setSearch(e.target.value)} onKeyUp={filterProduct}/>
 
             </div>
             <div className='container-fluid'>
