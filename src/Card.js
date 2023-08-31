@@ -26,7 +26,7 @@ const Card = ({ item }) => {
                         <h5 className="card-title">{item.item_name}</h5>
                         <h5 className="card-title">{item.item_price}</h5>
                         <div className='text-center'>
-                            <button className='btn btn-warning btn-md' onClick={addToCart}>Add to cart</button>
+                            <button className='btn btn-warning btn-md' onClick={addToCart}>Add to Anjil</button>
                         </div>
                     </div>
                 </div>
