@@ -8,6 +8,8 @@ import MyRoutes from './MyRoutes';
 import { cartReducer } from './Reducers/cartReducer';
 import { itemReducer } from './Reducers/itemReducer';
 import storage from 'redux-persist/lib/storage' // defaults to localStorage for web
+import { Analytics } from '@vercel/analytics/react';
+
  
 
 
@@ -37,6 +39,8 @@ function App() {
         <MyRoutes />
         </PersistGate>
       </Provider>
+      <Analytics />
+
     </>
   )
 }
