@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "../styles/Navbar.scss";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isSideMenuOpen, setSideMenuOpen] = useState(false);
@@ -22,9 +23,9 @@ const Navbar = () => {
     <nav className={`navbar flex items-center ${scrolled ? "scrolled" : ""}`}>
       <div className="container navbar-container w-full flex justify-between">
         <div className="brand-and-toggler flex items-center justify-between">
-          <a href="#" className="nav-brand text-white">
-            ANJIL PANDEY <span className="nav-brand-dot bg-white"></span>
-          </a>
+          <Link to="/" className="nav-brand text-white">
+            HYPED<span className="nav-brand-dot bg-white"></span>
+          </Link>
           <button type="button" className="nav-show-btn text-white" onClick={showSideMenu}>
             <i className="bi bi-list"></i>
           </button>
@@ -36,7 +37,7 @@ const Navbar = () => {
           </button>
           <ul className="nav-menu flex items-center">
             <li className="nav-item">
-              <a href="#" className="nav-link">Home</a>
+              <Link to="/" className="nav-link">Home</Link>
             </li>
             <li className="nav-item">
               <a href="#" className="nav-link">
