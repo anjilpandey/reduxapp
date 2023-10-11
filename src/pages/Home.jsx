@@ -156,7 +156,7 @@ const Home = () => {
                       The best articles every week
                     </h4>
 
-                    <p className="text text-lg">Our insurnace plans offers are priced the same everywheres else.</p>
+                    <p className="text text-lg">Our insurance plans offers are priced the same everywheres else.</p>
                   </div>
                 </div>
               </div>

@@ -9,18 +9,13 @@ const Footer = () => {
         <div className="ftr-list">
           <div className="ftr-item">
             <a href="#" className="ftr-brand text-white">
-              heya <span className="ftr-brand-dot bg-white"></span>
+              ANJIL PANDEY <span className="ftr-brand-dot bg-white"></span>
             </a>
 
-            <p className="text text-base">
-              Build a modern and creative website with crealand
-            </p>
+            
             <ul className="social-links text-white flex flex-wrap text-gray text-base">
-              <li><a className="" href="#">Twitter</a></li>
-              <li><a className="" href="#">Linkedin</a></li>
-              <li><a className="" href="#">Instagram</a></li>
-              <li><a className="" href="#">Google</a></li>
-              <li><a className="" href="#">YouTube</a></li>
+              <li><a className="" href="https://www.linkedin.com/in/anjil-pandey/" target="_blank">Linkedin</a></li>
+              <li><a className="" href="https://www.instagram.com/anjil_pandey_/" target="_blank">Instagram</a></li>
             </ul>
           </div>
 

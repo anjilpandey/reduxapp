@@ -222,7 +222,7 @@ export const blogs = [
 export const linksData = [
     {
         id: "read-links",
-        title: "Read Our",
+        title: "Read Our Blogs",
         links: ["Journals", "Articles","Biograpahy", "Old records","Audio version"]
     },
     {
@@ -239,8 +239,8 @@ export const linksData = [
     {
         id: "more-links",
         title: "More",
-        links: ["License","About Us", "Our policy"]
+        links: ["About Us", "Our policy"]
     }
 ]
 
-export const socialLinks = ["Twitter", "Linkedin" ,"Instagram" ,"Google" ,"Youtube"];
+export const socialLinks = ["Linkedin" ,"Instagram"];

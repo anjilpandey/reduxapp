@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="container navbar-container w-full flex justify-between">
         <div className="brand-and-toggler flex items-center justify-between">
           <a href="#" className="nav-brand text-white">
-            heya <span className="nav-brand-dot bg-white"></span>
+            ANJIL PANDEY <span className="nav-brand-dot bg-white"></span>
           </a>
           <button type="button" className="nav-show-btn text-white" onClick={showSideMenu}>
             <i className="bi bi-list"></i>
